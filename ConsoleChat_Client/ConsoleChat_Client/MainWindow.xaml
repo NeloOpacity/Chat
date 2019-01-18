@@ -1,0 +1,28 @@
+﻿<Window x:Class="ConsoleChat_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsoleChat_Client"
+        xmlns:wpfTool="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="600"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <wpfTool:RichTextBox Name="AllMessages" IsReadOnly="True" Grid.Row="0" Grid.ColumnSpan="2">             <!--Text="{Binding chat.Messages}"-->
+            <wpfTool:RichTextBox.TextFormatter>
+                <wpfTool:PlainTextFormatter/>
+            </wpfTool:RichTextBox.TextFormatter>
+        </wpfTool:RichTextBox>
+        <TextBox Name="ClientMessage"  Grid.Row="1" Grid.Column="0"/>
+        <Button Name="bSendMessage" Margin="30 30 30 30" Width="100" Grid.Row="1" Grid.Column="1" Content="Отправить" Click="bSendMessage_Click"/>
+    </Grid>
+</Window>

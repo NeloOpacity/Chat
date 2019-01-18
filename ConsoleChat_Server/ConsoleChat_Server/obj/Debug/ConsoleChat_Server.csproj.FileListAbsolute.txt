@@ -1,0 +1,6 @@
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\bin\Debug\ConsoleChat_Server.exe.config
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\bin\Debug\ConsoleChat_Server.exe
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\bin\Debug\ConsoleChat_Server.pdb
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\obj\Debug\ConsoleChat_Server.csproj.CoreCompileInputs.cache
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\obj\Debug\ConsoleChat_Server.exe
+C:\Users\Salad Snak\source\repos\ConsoleChat_Server\ConsoleChat_Server\obj\Debug\ConsoleChat_Server.pdb
